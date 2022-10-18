@@ -1,0 +1,75 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.order-total-value {
+  color: #171f46;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-value {
+    font-size: 32px;
+  }
+}
+
+.order-total-label {
+  color: #616e7c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 24px;
+  }
+}
+
+.total-items {
+  color: #616e7c;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 16px;
+  }
+}
+
+.checkout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 15px 0 #1e293b;
+}
+
+@media screen and (max-width: 767px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
